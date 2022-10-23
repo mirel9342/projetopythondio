@@ -1,0 +1,135 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "collapsed_sections": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyO844m382K7P53bpSU1tW/3",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mirel9342/projetopythondio/blob/main/Planilha%20de%20excel\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "\n",
+        "Trabalha com Planilhas do Excel\n"
+      ],
+      "metadata": {
+        "id": "C4QNfyKcJAVd"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Importando a biblioteca \n",
+        "import pandas as pd \n"
+      ],
+      "metadata": {
+        "id": "g7MXydo5JL68"
+      },
+      "execution_count": 1,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "EpvDJbBJM1M5"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Leitura dos arquivos\n",
+        "df1 = pd.read_excel(\"Aracaju.xlsx\")\n",
+        "df2= pd.read_excel(\"Fortaleza.xlsx\")\n",
+        "df3 = pd.read_excel(\"Natal.xlsx\")\n",
+        "df4 = pd.read_excel(\"Salvador.xlsx\")"
+      ],
+      "metadata": {
+        "id": "qfg5aw5uMpbO"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#juntando todos os arquivos \n",
+        "df = pd.concat{[df1,df2,df3,df4,df5]}"
+      ],
+      "metadata": {
+        "id": "_girH-2xKEyV"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Exibindo todos os arquivos\n",
+        "df.head()"
+      ],
+      "metadata": {
+        "id": "5Jhz2h_SKcpR"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Exibindo as 5 primiras linhas \n",
+        "df = pd.concat([df1,df2,df3,df4,df5])"
+      ],
+      "metadata": {
+        "id": "PPbUyGYaKuRi"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#exibindo as 5 ultimas linhas \n",
+        "df.head()"
+      ],
+      "metadata": {
+        "id": "VnDzpU-OLPi7"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "GjyRDhoSM2sU"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
